@@ -10,6 +10,7 @@ import 'package:marketplace/pages/onboard/third_screen.dart';
 import 'package:marketplace/pages/screens/home.dart';
 void main() =>runApp(MaterialApp(
   initialRoute: '/first_screen',
+
   routes: {
     '/': (context)=>Loading(),
     '/first_screen':(context)=>FirstScreen(),
